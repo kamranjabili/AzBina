@@ -1,0 +1,6 @@
+@AzBina.WebApi_HostAddress = http://localhost:5120
+
+GET {{AzBina.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
