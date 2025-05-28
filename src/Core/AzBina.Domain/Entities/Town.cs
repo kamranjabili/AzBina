@@ -5,4 +5,6 @@ public class Town:BaseEntity
     public string Name { get; set; } = null!;
     public District District { get; set; } = null!;
     public Guid DistrictId { get; set; }
+    public ICollection<Ad> Ads { get; set; }
+
 }
