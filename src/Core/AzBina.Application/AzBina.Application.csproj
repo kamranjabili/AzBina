@@ -7,14 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstracts\Services\" />
-    <Folder Include="Abstracts\Repositories\" />
-    <Folder Include="DTOs\" />
-    <Folder Include="Validations\" />
+    <ProjectReference Include="..\AzBina.Domain\AzBina.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AzBina.Domain\AzBina.Domain.csproj" />
+    <Folder Include="Validations\" />
   </ItemGroup>
 
 </Project>
