@@ -27,6 +27,7 @@ namespace AzBina.WebApi.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
+            //commit 2
             return "value";
         }
 
